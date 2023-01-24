@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/product.css">
+  <title>Product Landing Page</title>
+</head>
+<body>
+ <nav>
+   <div class="logo">Brand</div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Contact</a></li>
+       <button type="button">Login</button>
+     </ul>
+   </div>
+ </nav>
+   <!-- responsive side navbar -->
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+     <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Services</a>
+     <ul class="dropdown">
+      <li><a href="#">Web design</a></li>
+      <li><a href="#">Web dev</a></li>
+      <li><a href="#">Web</a></li>
+    </ul>
+     <a href="#">Contact</a>
+     <a href="#"><button type="button">Login</button> </a>
+   </div>
+   
+   <div class="row">
+     <div class="column1">
+       <h1>Responsive Design</h1>
+       <p>Hello everyone,Migo institute is here to save you in terms of web and applications.</p>
+       <p>Contact us for responsive web design to grow your business!</p>
+       
+       <button>PURCHASE</button>
+     </div>
+     <div class="column2">
+       <img src="css/banner-img.png" alt="banner" width="500px">
+     </div>
+   </div>
+   
+   
+ 
+</body>
+</html>
